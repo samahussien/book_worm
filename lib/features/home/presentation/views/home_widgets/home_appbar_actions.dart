@@ -7,7 +7,7 @@ List<Widget> homeAppBarActions= [
             onTap: () {},
             child: const Padding(
               padding: EdgeInsets.symmetric(horizontal: 5),
-              child: Icon(Icons.notifications),
+              child: Icon(Icons.notifications, color: AppColor.kDarkGreen,),
             )),
         GestureDetector(
             onTap: () {},

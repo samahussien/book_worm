@@ -9,6 +9,6 @@ class HomePageViewBody extends StatelessWidget {
   Widget build(BuildContext context) {
     return TabBarView(
         controller: tabController,
-        children: const [ForYouView(), CommunityView()]);
+        children:  const [ForYouView(), CommunityView()]);
   }
 }
